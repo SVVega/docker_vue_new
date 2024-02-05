@@ -5,5 +5,5 @@
 
 deploy:
 	docker buildx build --no-cache --platform linux/amd64 -t cr.selcloud.ru/docker--new/buildname:v0.0.1 .
-	docker login -u token -p CRgAAAAA89fLMrdEB-RnVL1ZVX1ZibLeus9nQs0p cr.selcloud.ru/docker--new
+	docker login -u token -p CRgAAAAAeF5U177duPMdTkbnE7Gb0RS5S8W9gjpu cr.selcloud.ru/docker--new
 	docker push cr.selcloud.ru/docker--new/buildname:v0.0.1
